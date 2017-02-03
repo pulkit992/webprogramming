@@ -1,0 +1,121 @@
+body.one{
+    font-family: georgia;
+    background-attachment: fixed;
+    background-color: #FFCC00;
+}
+body.two{
+   font-family: georgia;
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px 1000px;
+
+}
+
+ul.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.set {
+    float: left;
+}
+
+li a {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-right: 10px solid #0F044F;
+    float: left;
+    background-color: #A4A400;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-left: 30px;
+    text-decoration: none; 
+    /*display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;*/
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+ul.b{
+    list-style-type: square;
+}
+h1{
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #A4A400;
+}
+h2{
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #A4A400;
+}
+h4{
+    color: yellow;
+}
+.header{
+    background-color: #fAE96B;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.tablehead{
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    border: 2px solid #FFFFFF;
+    background-color: #003366;
+    padding: 5px;
+    color: #FFFFFF;
+}
+td{
+    border: 2px solid #FFFFFF;
+    background-color: #CC9933;
+    padding: 5px;
+    color: #FFFFFF;
+}
+.ingredient{
+    color: white;
+    margin-left: 300px;
+    margin-top: -100px;
+    border-left: 1px solid yellow;
+    padding: 1em;
+    overflow: hidden;
+    
+}
+.direction{
+    color: white;
+    margin-left: 700px;
+    margin-top: -580px;
+    border-left: 1px solid yellow;
+    line-height: 30px;
+    padding: 1em;
+    overflow: hidden;
+}
+.bold{
+    color: yellow;
+}
+.pic{
+    margin-left: 150px;
+    margin-top: 10px;
+}
